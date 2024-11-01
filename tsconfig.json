@@ -1,7 +1,12 @@
 {
     "compilerOptions": {
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "esModuleInterop": true,
-    }
-}
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "./public/ts",
+      "rootDir": "./src",
+      "strict": true,
+      "esModuleInterop": true // Adicione esta linha
+    },
+    "include": ["src/**/*.ts"]
+  }
+  
